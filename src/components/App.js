@@ -1,6 +1,17 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
+import Navbar from './Navbar';
+import Home from './Home';
+import Whatwedo from './Whatwedo';
+import Contact from './Contact';
+import Corporate from './Corporate';
+import Board from './Board';
+import Volunteer from './Volunteer';
+import William from './William';
+import TakeAction from './TakeAction';
+import PressRelease from './PressRelease';
+import Donation from './Donation';
 
 function App() {
   return (
