@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import './App.css';
-import Navbar from './Navbar';
+import NavBar from './Navbar';
 import Home from './Home';
 import Whatwedo from './Whatwedo';
 import Contact from './Contact';
@@ -12,12 +11,13 @@ import William from './William';
 import TakeAction from './TakeAction';
 import PressRelease from './PressRelease';
 import Donation from './Donation';
+import Footer from './Footer';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
       <BrowserRouter>
+        <NavBar />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/what-we-do" component={Whatwedo} />
