@@ -8,7 +8,7 @@ const NavBar = () => (
     <Navbar.Brand className="ml-5">
       <NavLink to="/" className="mr-5 link">
         <img
-          src="https://images.squarespace-cdn.com/content/5938c91cbe65945cac32a872/1519251724393-SSWG00WSO8NY676L8UNP/SJEI_primary_full-name.png?format=1000w&content-type=image%2Fpng"
+          src="https://images.squarespace-cdn.com/content/5938c91cbe65945cac32a872/1519251724393-SSWG00WSO8NY676L8UNP/SJEI_primary_full-name.png?format=1000w"
           width="160"
           height="70"
           className="d-inline-block align-top logo"

@@ -12,12 +12,14 @@ import TakeAction from './TakeAction';
 import PressRelease from './PressRelease';
 import Donation from './Donation';
 import Footer from './Footer';
+import Slide from './Slide';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <NavBar />
+        <Slide />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/what-we-do" component={Whatwedo} />

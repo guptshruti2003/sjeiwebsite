@@ -23,3 +23,11 @@ code {
 .anchor {
   color: white;
 }
+
+.carousel {
+  height:200px;
+  margin: auto;
+}
+.photo-carousel {
+  height: 400px;
+}
