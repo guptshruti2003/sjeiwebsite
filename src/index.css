@@ -24,12 +24,9 @@ code {
   color: white;
 }
 
-.carou {
-  height: 450px;
-}
 .carousel {
-  height:200px;
-  margin: auto;
+  height:450px;
+  margin-bottom: 70px;
 }
 .photo-carousel {
   display: block;

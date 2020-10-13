@@ -6,7 +6,7 @@ import thirdImg from '../img/three.jpg';
 
 const Slide = () => (
   <Carousel className="carou">
-    <Carousel.Item interval={5000}>
+    <Carousel.Item interval={8000}>
       <img
         className="d-block w-100 photo-carousel"
         src={firstImg}
@@ -16,7 +16,7 @@ const Slide = () => (
         <h3>Social + Environmental Justice in Engineering</h3>
       </Carousel.Caption>
     </Carousel.Item>
-    <Carousel.Item interval={500}>
+    <Carousel.Item interval={8000}>
       <img
         className="d-block w-100 photo-carousel"
         src={secondImg}
