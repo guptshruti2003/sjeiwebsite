@@ -3,6 +3,8 @@ import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
+import about from '../img/stanislav-kondratiev-6pO3QFkk7hQ-unsplash.jpg';
+import action from '../img/jakob-owens-CiUR8zISX60-unsplash.jpg';
 
 const Home = () => (
   <div className="container">
@@ -150,6 +152,26 @@ const Home = () => (
             </p>
           </li>
         </ul>
+      </Col>
+    </Row>
+    <Row className="mt-5">
+      <Col>
+        <img
+          className="d-block w-100 photo-at"
+          src={about}
+          alt="about"
+        />
+        <h4 className="text-center mt-3">ABOUT</h4>
+        <p className="text-center">Find out about our organization, mission, our methods, and our advocacy.</p>
+      </Col>
+      <Col>
+        <img
+          className="d-block w-100 photo-at"
+          src={action}
+          alt="take-action"
+        />
+        <h4 className="text-center mt-3">TAKE ACTION</h4>
+        <p className="text-center">Ready to take the next step? You can become a contributor to our cause, or participate yourself.</p>
       </Col>
     </Row>
   </div>
