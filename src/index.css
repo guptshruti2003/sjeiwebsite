@@ -24,10 +24,15 @@ code {
   color: white;
 }
 
+.carou {
+  height: 450px;
+}
 .carousel {
   height:200px;
   margin: auto;
 }
 .photo-carousel {
-  height: 400px;
+  display: block;
+  height: 450px;
+  max-width: 100%;
 }
