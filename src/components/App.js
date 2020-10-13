@@ -32,8 +32,9 @@ function App() {
           <Route path="/press-release" component={PressRelease} />
           <Route path="/donation" component={Donation} />
         </Switch>
+        <Footer />
       </BrowserRouter>
-      <Footer />
+      
     </div>
   );
 }

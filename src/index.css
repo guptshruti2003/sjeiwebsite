@@ -37,3 +37,14 @@ code {
 .signup {
   width: 160px;
 }
+
+/* footer */
+.social-media {
+  height: 100px;
+  color:#333333;
+}
+
+.bottom {
+  height: 450px;
+  background-color:#1f1f1f;
+}
