@@ -154,8 +154,8 @@ const Home = () => (
         </ul>
       </Col>
     </Row>
-    <Row className="mt-5">
-      <Col>
+    <Row className="mt-5 mb-5">
+      <Col lg={{ span: 4, offset: 2 }}>
         <img
           className="d-block w-100 photo-at"
           src={about}
@@ -164,7 +164,7 @@ const Home = () => (
         <h4 className="text-center mt-3">ABOUT</h4>
         <p className="text-center">Find out about our organization, mission, our methods, and our advocacy.</p>
       </Col>
-      <Col>
+      <Col lg={4}>
         <img
           className="d-block w-100 photo-at"
           src={action}

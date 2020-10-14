@@ -28,7 +28,7 @@ const Footer = () => (
         </Row>
       </div>
       <div className="bottom">
-        <div>
+        <div className="mt-3">
           <p className="text-center">THE SOCIAL JUSTICE + ENGINEERING INITIATIVE, 2 NORTH CENTRAL AVENUE, SUITE 1800, PHOENIX, AZ, 85004,</p>
           <p className="text-center">ITE 1800, PHOENIX, AZ, 85004,</p>
 
