@@ -43,10 +43,23 @@ code {
   height: 450px;
   max-width: 100%;
 }
-
+.anchor-t:hover {
+  text-decoration: none;
+}
+/*home */
+.text-donate {
+  color: #616161;
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 14px;
+}
+.text-wedo {
+  line-height: 2;
+}
 .signup {
   width: 160px;
 }
+
 
 /* footer */
 .social-media {

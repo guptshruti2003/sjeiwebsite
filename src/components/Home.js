@@ -9,9 +9,23 @@ import action from '../img/jakob-owens-CiUR8zISX60-unsplash.jpg';
 const Home = () => (
   <div className="container">
     <Row>
+      <Col>
+        <Form.Group as={Col} md={{ span: 3, offset: 5 }}>
+          <Button type="submit" variant="info" className="signup text-center">Donate</Button>
+        </Form.Group>
+        <p className="text-center text-donate first-p mt-5">We need diverse individuals with backgrounds in engineering, environmental justice, and social justice to volunteer.</p>
+        <p className="text-center text-donate">Help lay the foundation of this organization!</p>
+        <p className="text-center text-donate last mb-4">
+          Find out more
+          {' '}
+          <a href="https://www.volunteermatch.org/search/org1044828.jsp" target="blank" className="anchor-t">here.</a>
+        </p>
+      </Col>
+    </Row>
+    <Row>
       <Col lg={{ span: 8, offset: 2 }}>
         <h3 className="text-center">WHAT WE DO</h3>
-        <p className="text-center mt-3">
+        <p className="text-center text-wedo mt-3">
           Our organization seeks to research, develop,
           and implement engineering practices, designs, products,
           and methods that promote social and environmental justice
