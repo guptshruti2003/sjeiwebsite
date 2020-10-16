@@ -18,12 +18,12 @@ const NavBar = () => (
     </Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Nav className="ml-auto">
-      <NavLink to="/" className="mr-5 link">SJEI</NavLink>
-      <NavLink to="/what-we-do" className="mr-5 link">ABOUT</NavLink>
-      <NavLink to="/take-action" className="mr-5 link">TAKE ACTION</NavLink>
-      <NavLink to="/press-release" className="mr-5 link">PRESS RELEASE</NavLink>
-      <a href="https://medium.com/sjei" target="blank" className="anchor mr-5">BLOG</a>
-      <NavLink to="/donation" className="mr-5 link">SUPPORT</NavLink>
+      <NavLink to="/" className="mr-4 link">SJEI</NavLink>
+      <NavLink to="/what-we-do" className="mr-3 link">ABOUT</NavLink>
+      <NavLink to="/take-action" className="mr-3 link">TAKE ACTION</NavLink>
+      <NavLink to="/press-release" className="mr-3 link">PRESS RELEASE</NavLink>
+      <a href="https://medium.com/sjei" target="blank" className="anchor mr-3">BLOG</a>
+      <NavLink to="/donation" className="mr-2 link support">SUPPORT</NavLink>
     </Nav>
   </Navbar>
 );
