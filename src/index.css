@@ -34,6 +34,8 @@ code {
   border-radius: 20px;
   border: 1px solid white;
 }
+
+/* slide */
 .carousel {
   height:450px;
   margin-bottom: 70px;
@@ -45,6 +47,22 @@ code {
 }
 .anchor-t:hover {
   text-decoration: none;
+}
+.title {
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 /*home */
 .text-donate {

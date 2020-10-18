@@ -13,7 +13,7 @@ const Slide = () => (
         alt="First slide"
       />
       <Carousel.Caption>
-        <h3>Social + Environmental Justice in Engineering</h3>
+        <h3 className="title">Social + Environmental Justice in Engineering</h3>
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item interval={8000}>
@@ -23,7 +23,7 @@ const Slide = () => (
         alt="Third slide"
       />
       <Carousel.Caption>
-        <h3>Social + Environmental Justice in Engineering</h3>
+        <h3 className="title">Social </h3>
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
@@ -33,7 +33,7 @@ const Slide = () => (
         alt="Third slide"
       />
       <Carousel.Caption>
-        <h3>Social + Environmental Justice in Engineering</h3>
+        <h3 className="title">Environmental Justice in Engineering</h3>
       </Carousel.Caption>
     </Carousel.Item>
   </Carousel>
