@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom';
 const TakeAction = () => (
   <div className="container">
     <Row>
-      <Col md={{ span: 10, offset: 1 }}>
+      <Col md={{ span: 10, offset: 1 }} className="mb-5">
         <p className="youcanmake text-center">
           You can make a difference. Our work will help ensure future development
           limits or eliminates negative impacts on our environment and fellow human.
@@ -15,41 +15,40 @@ const TakeAction = () => (
     </Row>
     <Row>
       <Col>
-        <h5>SUPPORT</h5>
-        <p>
+        <h5 className="text-center title-h5">SUPPORT</h5>
+        <p className="text-center">
           Your donation allows us to perform research, ensure sustainable
           engineering practices and methods are being performed while ensuring
           social and environmental justice. Help us get off the ground!
         </p>
-        <p>
+        <p className="text-center">
           <a className="anchor-t" href="https://secure.squarespace.com/checkout/donate?donatePageId=5939bc3c6b8f5b104ec81d05&ss_cid=fdc436da-1cc7-4cb0-aed5-3a5742cfec1f&ss_cvisit=1596857972140&ss_cvr=9d5e9807-f2ec-48d4-971c-e23d41f91dd9%7C1596832794660%7C1596848334690%7C1596857972833%7C3">
             Make a donation
           </a>
         </p>
       </Col>
       <Col>
-        <h5>VOLUNTEER</h5>
-        <p>
+        <h5 className="text-center title-h5">VOLUNTEER</h5>
+        <p className="text-center">
           Tell your friends and family. There&apos;s no better way to
           make an impact than to become informed yourself. Join now and make an impact!
         </p>
-        <div>
+        <div className="text-center">
           <NavLink to="/volunteer" className="mr-4 anchor-t">Join the Initiative</NavLink>
         </div>
       </Col>
     </Row>
     <Row>
-      <Col md={{ span: 4, offset: 4 }} className="amazon-charity-banner">
+      <Col className="amazon-charity-banner">
         <a href="https://smile.amazon.com/gp/chpf/homepage/ref=smi_chpf_redirect?ie=UTF8&ein=82-1792979&ref_=smi_ext_ch_82-1792979_cl" target="blank" className="anchor-t">
-          <p className="charity-name">Support</p>
-          <p className="charity-name">
-            The Social Justice + Engineering Initiative.
-          </p>
-          <p>
+          <p className="support1">Support</p>
+          <p className="charity-name1">The Social Justice +</p>
+          <p className="charity-name2">Engineering Initiative.</p>
+          <p className="whenyou">
             When you shop at
-            <b> smile.amazon.com</b>
+            <b> smile.amazon.com,</b>
           </p>
-          <p>Amazon donates</p>
+          <p className="amazon">Amazon donates</p>
         </a>
       </Col>
     </Row>
