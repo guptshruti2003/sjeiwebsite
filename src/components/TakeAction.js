@@ -38,6 +38,21 @@ const TakeAction = () => (
         </div>
       </Col>
     </Row>
+    <Row>
+      <Col md={{ span: 4, offset: 4 }} className="amazon-charity-banner">
+        <a href="https://smile.amazon.com/gp/chpf/homepage/ref=smi_chpf_redirect?ie=UTF8&ein=82-1792979&ref_=smi_ext_ch_82-1792979_cl" target="blank" className="anchor-t">
+          <p className="charity-name">Support</p>
+          <p className="charity-name">
+            The Social Justice + Engineering Initiative.
+          </p>
+          <p>
+            When you shop at
+            <b> smile.amazon.com</b>
+          </p>
+          <p>Amazon donates</p>
+        </a>
+      </Col>
+    </Row>
   </div>
 );
 export default TakeAction;
