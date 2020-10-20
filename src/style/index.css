@@ -32,9 +32,12 @@ code {
 .support {
   padding: 15px;
   border-radius: 20px;
-  border: 1px solid white;
+  border: 2px solid white;
 }
-
+.support:hover {
+  color: black;
+  background-color: white;
+}
 /* slide */
 .carousel {
   height:450px;
@@ -44,6 +47,9 @@ code {
   display: block;
   height: 450px;
   max-width: 100%;
+}
+.anchor-t {
+  color: #00a0bc;
 }
 .anchor-t:hover {
   text-decoration: none;

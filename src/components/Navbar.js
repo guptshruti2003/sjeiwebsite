@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import { NavLink } from 'react-router-dom';
 
 const NavBar = () => (
-  <Navbar bg="dark" className=" justify-content-between" expand="lg">
+  <Navbar sticky="top" bg="dark" className=" justify-content-between" expand="lg">
     <Navbar.Brand className="ml-5">
       <NavLink to="/" className="mr-5 link">
         <img
