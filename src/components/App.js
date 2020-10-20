@@ -9,7 +9,6 @@ import Board from './Board';
 import Volunteer from './Volunteer';
 import William from './William';
 import TakeAction from './TakeAction';
-import PressRelease from './PressRelease';
 import Donation from './Donation';
 import Footer from './Footer';
 import Slide from './Slide';
@@ -29,7 +28,6 @@ function App() {
           <Route path="/volunteer" component={Volunteer} />
           <Route path="/williambentz" component={William} />
           <Route path="/take-action" component={TakeAction} />
-          <Route path="/press-release" component={PressRelease} />
           <Route path="/donation" component={Donation} />
         </Switch>
         <Footer />
