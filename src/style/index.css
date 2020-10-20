@@ -53,6 +53,7 @@ code {
 }
 .anchor-t:hover {
   text-decoration: none;
+  color: #00a0bc;
 }
 .title {
   animation-duration: 1s;
